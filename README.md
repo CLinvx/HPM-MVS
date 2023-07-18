@@ -13,10 +13,17 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 
 ## Results
 ### Benchmark Performance
+* Point cloud evaluation on ETH3D benchmark.
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
+
+* Point cloud evaluation on Tanks & Temples benchmark.
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
 
 ### Ablation Study
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/abaltion.png" width="700">
 
 ### Generalization Performance of NESP
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/generalize_NESP.png" width="400">
 
 ## Acknowledgemets
 This code largely benefits from the following repositories: [ACMH](https://github.com/GhiXu/ACMH), [ACMP](https://github.com/GhiXu/ACMP), [ACMMP](https://github.com/GhiXu/ACMMP). Thanks to their authors for opening source of their excellent works.
