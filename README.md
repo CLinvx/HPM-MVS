@@ -15,6 +15,7 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 ### Benchmark Performance
 1) Point cloud evaluation on ETH3D benchmark.
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
+
 2) Point cloud evaluation on Tanks & Temples benchmark.
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
 
