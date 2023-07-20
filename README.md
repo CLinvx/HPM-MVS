@@ -25,5 +25,8 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 ### Generalization Performance of NESP
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/generalize_NESP.png" width="400">
 
+### Runtime Performance
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Runtime.png" width="400">
+
 ## Acknowledgemets
 This code largely benefits from the following repositories: [ACMH](https://github.com/GhiXu/ACMH), [ACMP](https://github.com/GhiXu/ACMP), [ACMMP](https://github.com/GhiXu/ACMMP). Thanks to their authors for opening source of their excellent works.
