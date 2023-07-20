@@ -52,5 +52,16 @@ Run ./xxx $data_folder to get reconstruction results (./xxx represents the proje
 * Runtime Performance (Resolution: 3200*3130) 
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Runtime.png" width="180">
 
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@article{ren2023hierarchical,
+  title={Hierarchical Prior Mining for Non-local Multi-View Stereo},
+  author={Ren, Chunlin and Xu, Qingshan and Zhang, Shikun and Yang, Jiaqi},
+  journal={arXiv preprint arXiv:2303.09758},
+  year={2023}
+}
+```
+
 ## Acknowledgemets
 This code largely benefits from the following repositories: [ACMH](https://github.com/GhiXu/ACMH), [ACMP](https://github.com/GhiXu/ACMP), [ACMMP](https://github.com/GhiXu/ACMMP). Thanks to their authors for opening source of their excellent works.
