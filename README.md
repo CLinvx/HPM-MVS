@@ -7,15 +7,35 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/pipeline.png" width="800">
 </div>
 
-## TO DO LIST:
+## TO DO LIST
 * Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP (The code will be released in a few days). 
 * Stage 2: Realse the code of HPM-MVS. (The code will be released as soon as I get back from my summer vacation.)
+
+## Dependencies
+* NESP+ACMM, NESP+ACMP, NESP+ACMMP<br />
+  [cmake](https://cmake.org/)<br />
+  [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 6.0<br />
+  [OpenCV](https://opencv.org/) >=2.4
+* HPM-MVS
+
+## Useage
+* Compile
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+* Test 
+``` 
+Use script colmap2mvsnet_acm.py to convert COLMAP SfM result to MVS input   
+Run ./xxx $data_folder to get reconstruction results (./xxx represents the project name)
+```
 
 ## Results
 ### Benchmark Performance
 1) Point cloud evaluation on ETH3D benchmark.
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
-
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400"><br />
 2) Point cloud evaluation on Tanks & Temples benchmark.
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
 
