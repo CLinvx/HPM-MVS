@@ -12,6 +12,7 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 * Stage 2: Realse the code of HPM-MVS. (The code will be released as soon as I get back from my summer vacation.)
 
 ## Dependencies
+The code has been tested on Windows 10 with RTX 3070.
 * NESP+ACMM, NESP+ACMP, NESP+ACMMP<br />
   [cmake](https://cmake.org/)<br />
   [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 6.0<br />
@@ -33,20 +34,22 @@ Run ./xxx $data_folder to get reconstruction results (./xxx represents the proje
 ```
 
 ## Results
-### Benchmark Performance
-* Point cloud evaluation on ETH3D benchmark.
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
+* Benchmark Performance
 
-* Point cloud evaluation on Tanks & Temples benchmark.
+1. ETH3D benchmark
+
+<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
+2. Tanks & Temples benchmark
+
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
 
-### Ablation Study
+* Ablation Study
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/abaltion.png" width="700">
 
-### Generalization Performance of NESP
+* Generalization Performance of NESP
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/generalize_NESP.png" width="400">
 
-### Runtime Performance
+* Runtime Performance (Resolution: 3200*3130) 
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Runtime.png" width="180">
 
 ## Acknowledgemets
