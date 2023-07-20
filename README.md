@@ -34,9 +34,10 @@ Run ./xxx $data_folder to get reconstruction results (./xxx represents the proje
 
 ## Results
 ### Benchmark Performance
-1) Point cloud evaluation on ETH3D benchmark.
+* Point cloud evaluation on ETH3D benchmark.
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
-2) Point cloud evaluation on Tanks & Temples benchmark.
+
+* Point cloud evaluation on Tanks & Temples benchmark.
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
 
 ### Ablation Study
