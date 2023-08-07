@@ -8,8 +8,8 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 </div>
 
 ## TO DO LIST
-* Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP (The code will be released in a few days). 
-* Stage 2: Realse the code of HPM-MVS. (The code will be released as soon as I get back from my summer vacation.)
+* Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP. 
+* Stage 2: Realse the code of HPM-MVS.
 
 ## Dependencies
 The code has been tested on Windows 10 with RTX 3070.
