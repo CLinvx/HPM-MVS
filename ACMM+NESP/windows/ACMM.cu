@@ -1414,9 +1414,13 @@ __device__ void CheckerboardPropagation(const cudaTextureObject_t* images, const
                     costMinPoint = pointTemp;
                 }
             }
-            left_down = costMinPoint;
-            ComputeMultiViewCostVector(images, cameras, p, plane_hypotheses[left_down], cost_array[6], params);
+            else 
+            {
+                break;
+            }
         }
+        left_down = costMinPoint;
+        ComputeMultiViewCostVector(images, cameras, p, plane_hypotheses[left_down], cost_array[6], params);
     }
     int positions_tmp[8] = { left_up, up_far, right_up, down_far, right_down, left_far, left_down, right_far };
 
