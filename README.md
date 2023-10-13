@@ -7,7 +7,7 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 <img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/pipeline.png" width="800">
 </div>
 
-## TO DO LIST
+## TO DO LIST (The code of HPM-MVS will be available alongside HPM-MVS++, which ranks 2nd in the ETH3D benchmark.)
 * Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP. 
 * Stage 2: Realse the code of HPM-MVS.
 
