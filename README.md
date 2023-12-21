@@ -8,7 +8,7 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 </div>
 
 ## NEWS！！！
-* The initial version for [HPM-MVS++](https://github.com/CLinvx/HPM-MVS_plusplus)<br /> has been released.
+* The initial version for [HPM-MVS++](https://github.com/CLinvx/HPM-MVS_plusplus) has been released.
 
 ## TO DO LIST (The code of HPM-MVS will be available alongside HPM-MVS++, which ranks 2nd in the ETH3D benchmark.)
 * Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP. 
@@ -58,11 +58,13 @@ Run ./xxx $data_folder to get reconstruction results (./xxx represents the proje
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
-@article{ren2023hierarchical,
-  title={Hierarchical Prior Mining for Non-local Multi-View Stereo},
-  author={Ren, Chunlin and Xu, Qingshan and Zhang, Shikun and Yang, Jiaqi},
-  journal={arXiv preprint arXiv:2303.09758},
-  year={2023}
+@InProceedings{Ren_2023_ICCV,
+    author    = {Ren, Chunlin and Xu, Qingshan and Zhang, Shikun and Yang, Jiaqi},
+    title     = {Hierarchical Prior Mining for Non-local Multi-View Stereo},
+    booktitle = {Proc. IEEE/CVF International Conference on Computer Vision},
+    month     = {October},
+    year      = {2023},
+    pages     = {3611-3620}
 }
 ```
 
