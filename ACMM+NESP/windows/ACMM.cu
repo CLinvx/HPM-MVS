@@ -674,7 +674,7 @@ __device__ void ExtendedUpFarPropagation(const cudaTextureObject_t* images, cons
     if (p.x >= width || p.y >= height) {
         return;
     }
-    const int center = p.y + p.x * width;
+    const int center = p.x + p.y * width;
     int up_far = center - width * 5 - width * 2 * checkerboard_iter * 5;
     float cost_array_tmp[32];
     float costMin;
@@ -784,7 +784,7 @@ __device__ void ExtendedLeftFarPropagation(const cudaTextureObject_t* images, co
     if (p.x >= width || p.y >= height) {
         return;
     }
-    const int center = p.y + p.x * width;
+    const int center = p.x + p.y * width;
     int left_far = center - 5 - 5 * 2 * checkerboard_iter;
     float cost_array_tmp[32];
     float costMin;
@@ -1149,7 +1149,7 @@ __device__ bool JudgeExtend(const int iter, int Extended_iter, int orientation, 
         return false;
     }
     int iter_tmp = 3 - Extended_iter;
-    float good_threshold = 0.8 * (-iter * iter * iter_tmp / 90.0);
+    float good_threshold = 0.8 * exp(-iter * iter * iter_tmp / 90.0);
     float bad_threshold = 1.2;
     int good_sum = 0;
     int bad_sum = 0;
