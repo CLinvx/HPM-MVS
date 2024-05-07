@@ -10,18 +10,17 @@ In this work, we propose a Hierarchical Prior Mining for Non-local Multi-View St
 ## NEWS！！！
 * The initial version for [HPM-MVS++](https://github.com/CLinvx/HPM-MVS_plusplus) has been released.
 
-## TO DO LIST (The code of HPM-MVS will be available alongside HPM-MVS++, which ranks 2nd in the ETH3D benchmark.)
-* Stage 1: Realse the code of NESP+ACMM, NESP+ACMP, NESP+ACMMP. 
-* Stage 2: Realse the code of HPM-MVS.
-
 ## Dependencies
 The code has been tested on Windows 10 with RTX 3070.
 * NESP+ACMM, NESP+ACMP, NESP+ACMMP<br />
   [cmake](https://cmake.org/)<br />
   [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 6.0<br />
-  [OpenCV](https://opencv.org/) >=2.4
+  [OpenCV](https://opencv.org/) >= 2.4
 * HPM-MVS
-
+  [cmake](https://cmake.org/)<br />
+  [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 6.0<br />
+  [OpenCV](https://opencv.org/) >= 2.4
+  [PCL](https://pointclouds.org/) >= 1.7
 ## Useage
 * Compile
 ```
@@ -35,25 +34,6 @@ make
 Use script colmap2mvsnet_acm.py to convert COLMAP SfM result to MVS input   
 Run ./xxx $data_folder to get reconstruction results (./xxx represents the project name)
 ```
-
-## Results
-* Benchmark Performance
-
-1. ETH3D benchmark
-
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/ETH3D.png" width="400">
-2. Tanks & Temples benchmark
-
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Tanks_Temples.png" width="400">
-
-* Ablation Study
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/abaltion.png" width="700">
-
-* Generalization Performance of NESP
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/generalize_NESP.png" width="400">
-
-* Runtime Performance (Resolution: 3200*3130) 
-<img src="https://github.com/CLinvx/HPM-MVS/blob/main/figures/Runtime.png" width="180">
 
 ## Citation
 If you find our work useful in your research, please consider citing:
