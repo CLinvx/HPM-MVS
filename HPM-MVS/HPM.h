@@ -1,5 +1,5 @@
-#ifndef _ACMP_H_
-#define _ACMP_H_
+#ifndef _HPM_H_
+#define _HPM_H_
 
 #include "main.h"
 
@@ -111,4 +111,4 @@ private:
     unsigned int *plane_masks_cuda;
 };
 
-#endif // _ACMP_H_
+#endif // _HPM_H_
