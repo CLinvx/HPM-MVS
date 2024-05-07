@@ -19,7 +19,7 @@ The code has been tested on Windows 10 with RTX 3070.
 * HPM-MVS<br />
   [cmake](https://cmake.org/)<br />
   [CUDA](https://developer.nvidia.com/cuda-toolkit) >= 6.0<br />
-  [OpenCV](https://opencv.org/) >= 2.4
+  [OpenCV](https://opencv.org/) >= 2.4<br />
   [PCL](https://pointclouds.org/) >= 1.7
 ## Useage
 * Compile
